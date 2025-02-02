@@ -1,0 +1,7 @@
+{
+	"manifest_version": 3,
+	"name": "Dynamic Fast Download Button Creator",
+	"version": "1.0",
+	"description": "Creates fast download buttons on annas-archive.org/search for dynamically generated md5 links.",
+	"content_scripts": [{ "matches": ["https://annas-archive.org/search*"], "js": ["content.js"], "run_at": "document_idle" }]
+}
